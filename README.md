@@ -1,46 +1,16 @@
-# MyList
+# Dino_Front
 
-### 배포 주소
----
-MyList : https://mylist.im/
+![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=Dino_Front&height=100&fontSize=40&fontColor=ffffff)
 
-### 기술 스택
+## Overview
+Mylist is a music taste-based web and app platform designed to connect users based on their music preferences. The project aims to create a community where people can share their playlists, discover new music, and interact with others who have similar musical tastes. Here's a detailed overview of the Mylist project:
 
----
+## Project Goals
+- **Community Building**: Create a platform where users can connect and interact based on shared music interests.
+- **Personalized Music Discovery**: Use AI to recommend music and playlists tailored to each user's unique preferences.
+- **User Engagement**: Encourage users to share their playlists and engage with others, fostering a sense of community.
 
-**Enviroment**
-<br />
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-**Development**
-<br />
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-
-### 개발 배경
-
----
-
-- 망가진 음원차트
-    - 음원 차트보다 플레이리스트를 통해 음악을 접함
-- SNS로 소개하고자하는 MZ세대의 욕구
-    - 프로필과 플레이리스트를 꾸며 욕구 충족
-- 국내 플레이리스트 공유 플랫폼 존재 X
-
-### 개발 목표
-
----
-
-✨ MZ세대의 니즈를 충족시켜 나만의 플레이리스트 꾸미기 기능 제공
-
-✨ 음악으로 통해 더욱 가까워지는 관계 형성
-
-### 화면 구성
+## Pages
 
 ---
 
@@ -49,61 +19,70 @@ MyList : https://mylist.im/
     <td>
       <img src="https://github.com/CUK-CRUSH/Dino_Front/assets/91381230/fcec8503-ce85-4f4e-94a7-208c3cff2bf5" alt="Untitled (7)">
       <br>
-      <sub>로그인 화면</sub>
+      <sub>Login</sub>
     </td>
     <td>
       <img src="https://github.com/CUK-CRUSH/Dino_Front/assets/91381230/1592ae80-5420-4c84-8505-2ea98238cc27" alt="Untitled (8)">
       <br>
-      <sub>메인 화면</sub>
+      <sub>Main</sub>
     </td>
     <td>
       <img src="https://github.com/CUK-CRUSH/Dino_Front/assets/91381230/75901a3e-a8eb-4421-a260-93605f140566" alt="Untitled (9)">
       <br>
-      <sub>플레이 리스트 화면</sub>
+      <sub>Playlist</sub>
     </td>
   </tr>
     <tr>
     <td>
       <img src="https://github.com/CUK-CRUSH/Dino_Front/assets/91381230/b1567c79-a029-44d4-85ec-64bd52759396" alt="Untitled (10)">
       <br>
-      <sub>검색 화면</sub>
+      <sub>Search</sub>
     </td>
         <td>
       <img src="https://github.com/CUK-CRUSH/Dino_Front/assets/91381230/411c8064-0e4c-407a-bade-078129b621f2" alt="Untitled (10)">
       <br>
-      <sub>검색 결과 화면</sub>
+      <sub>Search Result</sub>
     </td>
   </tr>
 </table>
 
-### 기능
+## Key Features
+- **Music Sharing**: Users can create and share their playlists with the community.
+- **AI-Based Recommendations**: The platform uses a Retrieval-Augmented Generation (RAG) model to provide personalized music recommendations based on user preferences.
+- **User Profiles**: Each user has a profile showcasing their musical tastes and shared playlists.
+- **Social Interaction**: Users can follow each other, comment on playlists, and engage in discussions about music.
 
----
+## 🛠 Technologies Used
+### Frontend
+- **React**: For building the user interface and ensuring a responsive, dynamic user experience.
+- **HTML/CSS/JavaScript**: Core technologies for web development, used to structure and style the platform.
 
-🎵 OAuth
+### Database
+- **MongoDB**: To store user data, playlists, and interaction histories.
 
-- 복잡한 회원가입, 로그인 절차를 생략하고 SNS 계정으로 간편하게 로그인할 수 있습니다.
+### AI/ML
+- **Python & Langchain**: For implementing the RAG model and developing the AI-based music recommendation system.
 
-🎵 프로필 기능
+### Project Management
+- **JIRA & Trello**: For tracking project progress, managing tasks, and coordinating the development team.
 
-- 닉네임, 한줄소개, 프로필사진, 배경사진을 설정할 수 있습니다.
+## Project Achievements
+- **User Engagement**: Successfully secured over 200 active users who regularly use the platform to share and discover music.
+- **Revenue Generation**: Implemented a profile matching service that generated actual sales, demonstrating the platform's potential for monetization.
+- **Awards**: Won an award at the AI를 활용한 문화콘텐츠 아이디어 경진대회 (AI-Driven Cultural Content Idea Competition).
 
-🎵 나만의 플레이리스트 만들기 기능
+## Role and Contributions
+- **Founder & Project Owner**: Led the overall vision and direction of the project, ensuring alignment with the goals.
+- **Frontend Developer**: Developed the user interface using React, focusing on creating a seamless and engaging user experience.
+- **AI Developer**: Implemented the AI-based music recommendation system using Python and Langchain, enhancing the platform's personalization capabilities.
+- **Project Manager**: Coordinated the development team, managed timelines, and facilitated communication to ensure smooth project execution.
 
-- 최대 9곡을 추가하여 나만의 플레이리스트 만들 수 있습니다.
+## Key Learning and Impact
+Through the Mylist project, I gained invaluable experience in full-stack development, AI implementation, and project management. This project allowed me to hone my technical skills, learn the intricacies of managing a development team, and understand the importance of user engagement and feedback in building a successful platform. The skills and insights gained from Mylist have equipped me to tackle complex projects and drive innovation in the tech industry.
 
-🎵 파도타기 기능
+## 📬 Contact
+Feel free to reach out for any queries or collaboration opportunities:
+- **GitHub**: [freecoderer](https://github.com/freecoderer)
+- **LinkedIn**: [Donghyun Kim](https://www.linkedin.com/in/kdh1999dev)
 
-- 랜덤 추천 플레이리스트로 탐색할 수 있습니다.
-
-🎵 검색 기능
-
-- 찾고 싶은 플레이리스트나 유저를 검색할 수 있습니다.
-
-🎵 방명록 기능
-
-- 상대방의 플레이리스트에 방명록을 작성할 수 있습니다.
-
-🎵 좋아요 기능
-
-- 상대방의 플레이리스트에 좋아요를 누를 수 있습니다.
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5)
