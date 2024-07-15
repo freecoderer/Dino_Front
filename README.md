@@ -1,6 +1,6 @@
-# Dino_Front
+# MyList
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=45ADA8&text=Dino_Front&height=100&fontSize=40&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=45ADA8&text=Mylist&height=100&fontSize=40&fontColor=ffffff)
 
 ## Overview
 Mylist is a music taste-based web and app platform designed to connect users based on their music preferences. The project aims to create a community where people can share their playlists, discover new music, and interact with others who have similar musical tastes. Here's a detailed overview of the Mylist project:
